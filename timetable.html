@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 데모 - 시간표</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="list.html">List</a></li>
+          <li><a href="timetable.html">Timetable</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="main">
+      <div class="container">
+        <h1>나의 강의 시간표</h1>
+        <table class="timetable">
+          <thead>
+            <tr>
+              <th class="time-col"></th>
+              <th>월</th>
+              <th>화</th>
+              <th>수</th>
+              <th>목</th>
+              <th>금</th>
+              <th>토</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time-col">9</td>
+              <td></td>
+              <td rowspan="2" class="bg-red">
+                <span class="subject">웹프로그래밍</span
+                ><span class="room">C6-0815</span>
+              </td>
+              <td rowspan="2" class="bg-green">
+                <span class="subject">객체지향프로그래밍</span
+                ><span class="room">C6-0815</span>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">10</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">11</td>
+              <td></td>
+              <td rowspan="2" class="bg-orange">
+                <span class="subject">보안자료구조</span
+                ><span class="room">C6-0833</span>
+              </td>
+              <td rowspan="2" class="bg-teal">
+                <span class="subject">서버구축및운영실습</span
+                ><span class="room">C6-0832</span>
+              </td>
+              <td rowspan="2" class="bg-blue">
+                <span class="subject">English for Global Citizens III</span
+                ><span class="room">C7-0115</span>
+              </td>
+              <td></td>
+              <td rowspan="2" class="bg-dark-green">
+                <span class="subject">해부학과문화</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="time-col">12</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">1</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">2</td>
+              <td rowspan="2" class="bg-red">
+                <span class="subject">웹프로그래밍</span
+                ><span class="room">C6-0815</span>
+              </td>
+              <td rowspan="2" class="bg-green">
+                <span class="subject">객체지향프로그래밍</span
+                ><span class="room">C6-0815</span>
+              </td>
+              <td></td>
+              <td rowspan="4" class="bg-deep-orange">
+                <span class="subject">네트워크보안</span
+                ><span class="room">C6-0815</span>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">3</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">4</td>
+              <td rowspan="2" class="bg-orange">
+                <span class="subject">보안자료구조</span
+                ><span class="room">C6-0831</span>
+              </td>
+              <td rowspan="2" class="bg-teal">
+                <span class="subject">서버구축및운영실습</span
+                ><span class="room">C6-0832</span>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">5</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">6</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td rowspan="2" class="bg-purple">
+                <span class="subject">블록체인과 함께살기</span>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-col">8</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

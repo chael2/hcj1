@@ -22,7 +22,7 @@ ul {
 }
 
 .main {
-  color: blue;
+  color: black;
   line-height: 2.5;
 }
 
@@ -79,4 +79,130 @@ button {
 button:hover {
   color: red;
   background-color: yellow;
+}
+
+.main ul {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+.main ul ul {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  height: 60px;
+  vertical-align: middle;
+  word-break: keep-all;
+  font-size: 14px;
+}
+
+.timetable th {
+  background-color: #ffffff;
+  color: #70757a;
+  font-weight: normal;
+  height: 40px;
+}
+
+.time-col {
+  width: 50px;
+  color: #70757a;
+}
+
+.subject {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.room {
+  display: block;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.bg-red {
+  background-color: #f28b82;
+  color: white;
+}
+.bg-green {
+  background-color: #a7d17a;
+  color: white;
+}
+.bg-orange {
+  background-color: #fbbc04;
+  color: white;
+}
+.bg-teal {
+  background-color: #78c9c3;
+  color: white;
+}
+.bg-blue {
+  background-color: #8ab4f8;
+  color: white;
+}
+.bg-dark-green {
+  background-color: #81c995;
+  color: white;
+}
+.bg-deep-orange {
+  background-color: #ffad42;
+  color: white;
+}
+.bg-purple {
+  background-color: #af8eb5;
+  color: white;
+}
+
+.form-container {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input[type='text'],
+.form-group input[type='email'],
+.form-group input[type='password'],
+.form-group textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.form-buttons {
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.form-buttons button:hover {
+  opacity: 0.8;
 }
